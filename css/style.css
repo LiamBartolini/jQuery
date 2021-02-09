@@ -8,14 +8,20 @@
     margin-top: 10px;
     border: 1px solid black;
     height: 342px;
+    text-align: center;
+    /* display: table; */
+    /* flex-direction: row; */
 }
 
 .inseriti {
-    margin-top: 5px;
+    margin-top: 2px;
     border: 1px solid black;
     text-align: center;
-    display: block;
-    position: fixed;
+    margin-left: 5%;
+
+    display: table-cell;
+    /* vertical-align: middle; */
+    flex-direction: column;
 }
 
 form {
