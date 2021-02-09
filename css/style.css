@@ -13,5 +13,17 @@
 .inseriti {
     margin-top: 5px;
     border: 1px solid black;
-    text-align: center; 
+    text-align: center;
+    display: block;
+    position: fixed;
 }
+
+form {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+#btnInserisci { margin-left: 10px; }
+
+#nominativi { margin-top: 20px; text-align: center; }

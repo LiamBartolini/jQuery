@@ -59,7 +59,7 @@
                                         <tr>
                                             <td>COGNOME</td>
                                             <td><input type="text" id="txtCognome"></td>
-                                            <td><input type="button" class="btn btn-primary" id="btnInserisci" data-toggle="modal" data-target="#messaggioModale" value="INSERISCI"></input></td>
+                                            <td><input type="button" id="btnInserisci" data-toggle="modal" data-target="#messaggioModale" value="INSERISCI"></input></td>
                                         </tr>
                                     </table>    
                                 </form>
@@ -68,13 +68,13 @@
                     </div>
                     
                     <div class="col" id="div7">
-                        NOMINATIVI
+                        <p id="nominativi">NOMINATIVI</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Modal -->
+        <!-- Modale accettazione -->
         <div class="modal fade" id="modal-accettazione" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -95,6 +95,7 @@
             </div>
         </div>
 
+        <!-- Modale errore -->
         <div class="modal" tabindex="-1" id="error-modal">
             <div class="modal-dialog">
                 <div class="modal-content">
