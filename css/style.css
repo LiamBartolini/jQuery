@@ -1,0 +1,17 @@
+.col {
+    margin: 10px;
+    border: 1px solid black;
+    height: 100px;
+}
+
+#div7 {
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 342px;
+}
+
+.inseriti {
+    margin-top: 5px;
+    border: 1px solid black;
+    text-align: center; 
+}
