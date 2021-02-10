@@ -2,9 +2,8 @@ var persone = [];
 var blocco;
 var indice = 0;
 var nomeIntero;
-             
-jQuery(function () {
 
+jQuery(function () {
     // listener per aggiungere un nome
     jQuery("#btnAccetta, #btnDeclino").on("click", function () {
         if (this.id == "btnAccetta") {
