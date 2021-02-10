@@ -2,4 +2,4 @@
 *.json
 
 # ignoro la cartella node_modules
-@types/
+[Nn]ode_modules/
