@@ -1,4 +1,3 @@
-var contatore = 0;
 var persone = [];
 var blocco;
 var indice = 0;
@@ -22,7 +21,6 @@ jQuery(function () {
         // controllo che i dati inseriti siano unici
         if (checkInput(nomeIntero)) {
             activeModalAccettazione("Per confermare l'inserimento di " + nomeIntero +" cliccare su 'accetto'!");
-            contatore++;
         }
     });
 });
