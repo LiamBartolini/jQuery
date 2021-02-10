@@ -1,5 +1,5 @@
 var contatore = 0;
-var persone = new Array(20); // Imposto un massimo di 20 nomi
+var persone = [];
 var blocco;
 var indice = 0;
 var nomeIntero;

@@ -7,10 +7,7 @@
 #div7 {
     margin-top: 10px;
     border: 1px solid black;
-    height: 342px;
     text-align: center;
-    /* display: table; */
-    /* flex-direction: row; */
 }
 
 .inseriti {
@@ -18,18 +15,14 @@
     border: 1px solid black;
     text-align: center;
     margin-left: 5%;
-
-    display: table-cell;
-    /* vertical-align: middle; */
-    flex-direction: column;
 }
 
 form {
     display: flex;
-    margin-top: 2%;
+    margin-top: 15px;
     margin-left: 25%;
 }
 
 #btnInserisci { margin-left: 10px; }
-
+#txtCognome { margin-top: 10px }
 #nominativi { margin-top: 20px; text-align: center; }
