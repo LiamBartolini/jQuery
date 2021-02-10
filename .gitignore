@@ -4,3 +4,4 @@ package-lock.json
 # ignoro la cartella node_modules
 jquery/
 sizzle/
+@types/
