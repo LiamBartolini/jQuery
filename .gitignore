@@ -1,0 +1,5 @@
+# ignoro il fil .json della intelisense
+package-lock.json
+
+# ignoro la cartella node_modules
+node_modules
