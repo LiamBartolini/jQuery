@@ -7,7 +7,7 @@ var nomeIntero;
 jQuery(function () {
 
     // listener per aggiungere un nome
-    jQuery("#btnAccetta, #btnChiudi").on("click", function () {
+    jQuery("#btnAccetta, #btnDeclino").on("click", function () {
         if (this.id == "btnAccetta") {
             addingInput(nomeIntero);
         }
@@ -16,7 +16,7 @@ jQuery(function () {
     // prendo i dati
     jQuery("#btnInserisci").on("click", function () {
         var nome = jQuery("#txtNome").val();
-        var cognome = jQuery("#txtCognome").val()<;
+        var cognome = jQuery("#txtCognome").val();
         nomeIntero = nome + " " + cognome;
         
         // controllo che i dati inseriti siano unici
