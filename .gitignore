@@ -2,4 +2,4 @@
 package-lock.json
 
 # ignoro la cartella node_modules
-node_modules
+node_modules/
