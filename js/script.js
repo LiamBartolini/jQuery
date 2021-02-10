@@ -15,18 +15,13 @@ jQuery(function () {
 
     // prendo i dati
     jQuery("#btnInserisci").on("click", function () {
-        var nome = jQuery("#txtNome").val().trim();
-        var cognome = jQuery("#txtCognome").val().trim();
+        var nome = jQuery("#txtNome").val();
+        var cognome = jQuery("#txtCognome").val()<;
         nomeIntero = nome + " " + cognome;
         
         // controllo che i dati inseriti siano unici
         if (checkInput(nomeIntero)) {
-            if (contatore > 0) {
-                // Se non esiste allora chiedo la conferma e lo aggiungo
-                activeModalAccettazione("Per confermare l'inserimento di " + nomeIntero + " cliccare su 'accetto'!");
-            } else { 
-                activeModalAccettazione("Per confermare l'inserimento di " + nomeIntero +" cliccare su 'accetto'!");
-            }
+            activeModalAccettazione("Per confermare l'inserimento di " + nomeIntero +" cliccare su 'accetto'!");
             contatore++;
         }
     });
