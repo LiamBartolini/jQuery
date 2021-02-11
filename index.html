@@ -8,30 +8,38 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" media="screen" href="css/style.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
     </head>
     <body>
         <div class="container-fluid">
-            <!-- Prima riga -->
-            <div class="row">
-                <div class="col-sm">
-                    <a name="" id="" class="btn btn-primary" href="#" role="button">HOME</a>
+            <!-- NAV -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="navbar">
+                    <li class="nav-item">
+                        <a name="" id="" class="btn btn-primary" href="#" role="button">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a name="" id="" class="btn btn-primary" href="#" role="button">CHI SIAMO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a name="" id="" class="btn btn-primary" href="#" role="button">MISSION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a name="" id="" class="btn btn-primary" href="#" role="button">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a name="" id="" class="btn btn-primary" href="#" role="button">CONTATTI</a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="col-sm">
-                    <a name="" id="" class="btn btn-primary" href="#" role="button">CHI SIAMO</a>
-                </div>
-                <div class="col-sm">
-                    <a name="" id="" class="btn btn-primary" href="#" role="button">MISSION</a>
-                </div>
-                <div class="col-sm">
-                    <a name="" id="" class="btn btn-primary" href="#" role="button">PORTFOLIO</a>
-                </div>
-                <div class="col-sm">
-                    <a name="" id="" class="btn btn-primary" href="#" role="button">CONTATTI</a>
-                </div>
-            </div>
+              </nav>
+            <!-- NAV -->
 
             <!-- Seconda riga -->
             <div class="container-fluid">
@@ -51,53 +59,27 @@
                         <div class="row" id="third-row">
                             <div class="col" id="input-form">
                                 <form name="frmInput" method="" action="">
-                                    <!-- <table>
-                                        <tr>
-                                            <td>NOME</td>
-                                            <td><input type="text" id="txtNome"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>COGNOME</td>
-                                            <td><input type="text" id="txtCognome"></td>
-                                            <td><input type="button" id="btnInserisci" value="INSERISCI"></input></td>
-                                        </tr>
-                                    </table>     -->
-                                    
-                                    <!-- <div class="row" id="inputForm">
-                                        <div class="col" id="nome">
-                                            Nome<br/>
-                                            Cognome
-                                        </div>
-                                        
-                                        <div class="w-100"></div>
-                                        
-                                        <div class="col" id="cognome">
-                                            <input type="text" id="txtNome"/>
-                                            <input type="text" id="txtCognome"/>
-                                        </div>
-                                        
-                                        <div class="col" id="btn">
-                                            <input type="button" id="btnInserisci" value="INSERISCI"/>
-                                        </div>
-                                    </div> -->
-                                    
-                                    <div id="prima-riga">
+                                    <div id="prima-riga" class="form">
                                         Nome
                                         <input type="text" id="txtNome">
                                     </div>
 
-                                    <div id="seconda-riga">
+                                    <div id="seconda-riga" class="form">
                                         Cognome
                                         <input type="text" id="txtCognome">
-                                        <input type="button" id="bntInserisci" value="INSERISCI">
+                                        <input type="button" id="btnInserisci" value="INSERISCI">
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="col-2" id="div7">
-                        <p id="nominativi">NOMINATIVI</p>
+                    <div class="col-2 justify-content-center" id="div7">
+                        <div class="row">
+                            <div class="col">
+                                <p id="nominativi">NOMINATIVI</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
