@@ -19,7 +19,7 @@ jQuery(function () {
         
         // controllo che i dati inseriti siano unici
         if (checkInput(nomeIntero)) {
-            activeModalAccettazione("Per confermare l'inserimento di " + nomeIntero +" cliccare su 'accetto'!");
+            activeModalAccettazione("Per confermare l'inserimento di '<b>" + nomeIntero + "</b>' cliccare su 'accetto'!");
         }
     });
 });
@@ -49,7 +49,7 @@ function addingInput(nomeIntero) {
 function checkInput(nomeIntero) {
     for (var i = 0; i < persone.length; i++) {
         if (nomeIntero == persone[i]) {
-            activeModalError("Il nome " + nomeIntero + " è già stato inserito!");
+            activeModalError("Il nome '<b>" + nomeIntero + "</b>' è già stato inserito!");
             return false;
         }
     }
